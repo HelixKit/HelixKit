@@ -1,0 +1,12 @@
+[test]
+# Configure test runner
+coverage = true
+
+[install]
+# Configure package installation
+registry = "https://registry.npmjs.org/"
+
+[dev]
+# Configure development server
+port = 3000
+hot = true

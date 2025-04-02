@@ -1,0 +1,54 @@
+# Source code
+src/
+
+# Tests
+tests/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Configuration files
+.eslintrc.json
+.prettierrc
+tsconfig.json
+.github/
+.vscode/
+.editorconfig
+.gitignore
+
+# Documentation
+docs/
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+
+# Examples
+examples/
+
+# Git
+.git/
+
+# Build tools
+scripts/
+
+# Logs
+logs/
+*.log
+
+# IDE files
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Development files
+.husky/
+.babelrc
+.changeset/

@@ -1,0 +1,18 @@
+{
+  "name": "helix-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "helix dev",
+    "build": "helix build",
+    "start": "bun serve dist"
+  },
+  "dependencies": {
+    "helix": "^0.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}

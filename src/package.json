@@ -6,5 +6,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/helixkit/helixkit.git"
+  },
+  "dependencies": {
+    "@helixkit/src": "^0.1.0"
   }
 }

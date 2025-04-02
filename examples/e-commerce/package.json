@@ -1,0 +1,18 @@
+{
+  "name": "helix-ecommerce-example",
+  "version": "0.1.0",
+  "description": "E-commerce example application built with Helix",
+  "private": true,
+  "scripts": {
+    "dev": "helix dev",
+    "build": "hlix build",
+    "preview": "helix preview",
+    "test": "helix test"
+  },
+  "dependencies": {
+    "helix-kit": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}

@@ -1,0 +1,189 @@
+/* Helix SSR Template - Main Styles */
+
+:root {
+  --primary-color: #6200ee;
+  --primary-dark: #3700b3;
+  --primary-light: #bb86fc;
+  --secondary-color: #03dac6;
+  --background-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --error-color: #b00020;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --border-color: #e0e0e0;
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background-color: var(--background-color);
+  font-size: 16px;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+.app-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.app-header nav {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.app-header nav a {
+  color: white;
+  padding: 0.3rem 0;
+  font-weight: 500;
+  position: relative;
+}
+
+.app-header nav a:hover {
+  text-decoration: none;
+}
+
+.app-header nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.app-header nav a:hover::after {
+  width: 100%;
+}
+
+/* Home page */
+.home-page h2, .about-page h2 {
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+/* Server data */
+.server-data, .data-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: var(--surface-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+h3 {
+  margin-bottom: 1rem;
+  color: var(--primary-dark);
+}
+
+pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  border-radius: 4px;
+  overflow: auto;
+  font-size: 0.9rem;
+}
+
+/* Hydration indicator */
+.hydration-indicator {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #e8f5e9;
+  border: 1px solid #c8e6c9;
+}
+
+.refresh-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.refresh-button:hover {
+  background-color: var(--primary-dark);
+}
+
+/* Loading state */
+.loading {
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* About page */
+.about-page p {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.app-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .app-header {
+    padding: 1rem;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+}

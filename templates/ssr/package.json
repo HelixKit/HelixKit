@@ -1,0 +1,18 @@
+{
+  "name": "helix-kit-ssr-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "helix-kit dev --ssr",
+    "build": "helix-kit build --ssr",
+    "start": "bun run server/index.ts"
+  },
+  "dependencies": {
+    "helix-kit": "^0.1.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}
