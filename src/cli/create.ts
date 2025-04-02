@@ -88,10 +88,10 @@ Next steps:
 Happy coding with Helix-Kit! 🚀
 
 Documentation:
-  https://github.com/your-org/helix-kit/docs
+  https://github.com/helixkit/helixkit/docs
 
 Examples:
-  https://github.com/your-org/helix-kit/examples
+  https://github.com/helixkit/helixkit/examples
   `);
 }
 
@@ -174,12 +174,12 @@ function createPackageJson(
     private: true,
     type: 'module',
     scripts: {
-      dev: 'helix-kit dev',
-      build: 'helix-kit build',
+      dev: '@helixkit/helix-kit dev',
+      build: '@helixkit/helix-kit build',
       start: 'bun serve dist',
     },
     dependencies: {
-      'helix-kit': '^0.1.0',
+      '@helixkit/helix-kit': '^0.1.0',
     },
     devDependencies: {
       bun: '^1.0.0',
@@ -188,8 +188,8 @@ function createPackageJson(
 
   // Add template-specific scripts
   if (template === 'ssr') {
-    packageJson.scripts.dev = 'helix-kit dev --ssr';
-    packageJson.scripts.build = 'helix-kit build --ssr';
+    packageJson.scripts.dev = '@helixkit/helix-kit dev --ssr';
+    packageJson.scripts.build = '@helixkit/helix-kit build --ssr';
     packageJson.scripts.start = 'bun dist/server/index.js';
   }
 

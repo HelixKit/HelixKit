@@ -1,19 +1,21 @@
 {
-  "name": "@helixkit/helix-kit",
-  "version": "0.1.0",
+  "name": "helix-kit",
+  "version": "0.1.1",
   "private": false,
   "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/helixkit/helixkit.git"
   },
+  "dependencies": {
+    "@helixkit/helix-kit": "^0.1.0"
+  },
+  "description": "An alias package for @helixkit/helix-kit",
+  "main": "index.js",
   "exports": {
     ".": {
       "import": "./index.js",
       "require": "./index.js"
     }
-  },
-  "bin": {
-    "helix-kit": "./cli/index.js"
   }
 }
