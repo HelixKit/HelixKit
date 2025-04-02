@@ -1,0 +1,10 @@
+{
+  "name": "@helixkit/src",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helixkit/helixkit.git"
+  }
+}
