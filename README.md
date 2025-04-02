@@ -145,9 +145,9 @@ We welcome contributions! Please see our [Contributing Guide](https://github.com
 
 ## Donate
 
-**ETH**:    `0x21B33205168cbA82E6C990C2eBB9409FA7FF3032`
-**ERC-20**: `0x21B33205168cbA82E6C990C2eBB9409FA7FF3032`
-**BTC**:    `3DaczzUNvXE1NkCe93xRnYy9TchB1KE43Z`
+- **ETH**:    `0x21B33205168cbA82E6C990C2eBB9409FA7FF3032`
+- **ERC-20**: `0x21B33205168cbA82E6C990C2eBB9409FA7FF3032`
+- **BTC**:    `3DaczzUNvXE1NkCe93xRnYy9TchB1KE43Z`
 
 ## License
 
