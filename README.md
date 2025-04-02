@@ -143,6 +143,12 @@ Explore our example applications for reference implementations:
 
 We welcome contributions! Please see our [Contributing Guide](https://github.com/helixkit/helixkit/blob/main/CONTRIBUTING.md) for details.
 
+## Donate
+
+**ETH**:    `0x21B33205168cbA82E6C990C2eBB9409FA7FF3032`
+**ERC-20**: `0x21B33205168cbA82E6C990C2eBB9409FA7FF3032`
+**BTC**:    `3DaczzUNvXE1NkCe93xRnYy9TchB1KE43Z`
+
 ## License
 
 MIT
